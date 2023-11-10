@@ -1,32 +1,79 @@
-AirBnB Clone
-This is an airbnb clone
+# Airbnb Clone Project
 
-The project mainly focuses on creating and deploying copy for the airbnb website.
+This project is an Airbnb clone that focuses on creating and deploying copy for the Airbnb website. The primary goal is to implement a console/command interpreter to manage objects related to the Airbnb data model and store/persist them to a JSON file.
 
-Concepts to be covered are:
+## Installation
 
-  The Console
-The console does the following tasks:
+1. Clone the project repository:
+   ```bash
+   git clone https://github.com/Kalkidan-Amare/AirBnB_clone
+Access the Airbnb directory:
 
-->create your data model
-->manage (create, update, destroy, etc) objects via a console / command interpreter
-->store and persist objects to a file (JSON file)
+bash
+Copy code
+cd AirBnB_clone
+For interactive mode, run:
 
-	Install and use
+bash
+Copy code
+./console
+For non-interactive mode, run:
 
-->First clone "https://github.com/milkias17/AirBnB_clone"
-->Second access AirBnB directory
-->Next - For interactive run ./console
-     - For non-interactive run echo "" | ./console.py
+bash
+Copy code
+echo "" | ./console.py
+Usage
+Console Commands
+Display commands help:
 
+bash
+Copy code
+(hbnb) help
+Create object (prints its id):
 
- 		Examples
-	
-	Commands
-Display commands help -> (hbnb) help
-Create object (prints its id) -> (hbnb) create )
-Destroy object -> (hbnb) destroy or (hbnb) .destroy()
-Show object -> (hbnb) show or (hbnb) .show()
-Show "all" objects or instances class -> (hbnb) all or (hbnb) all
-Run console -> ./console.py
-Quit console -> (hbnb)quit
+bash
+Copy code
+(hbnb) create
+Destroy object:
+
+bash
+Copy code
+(hbnb) destroy
+or
+
+bash
+Copy code
+(hbnb) .destroy()
+Show object:
+
+bash
+Copy code
+(hbnb) show
+or
+
+bash
+Copy code
+(hbnb) .show()
+Show "all" objects or instances of a class:
+
+bash
+Copy code
+(hbnb) all
+or
+
+bash
+Copy code
+(hbnb) all
+Examples
+Run the console:
+
+bash
+Copy code
+./console.py
+Quit the console:
+
+bash
+Copy code
+(hbnb) quit
+Contributor
+[Kalkidan Amare]
