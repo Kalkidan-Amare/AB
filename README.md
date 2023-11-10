@@ -8,72 +8,17 @@ This project is an Airbnb clone that focuses on creating and deploying copy for 
    ```bash
    git clone https://github.com/Kalkidan-Amare/AirBnB_clone
 Access the Airbnb directory:
+2. goto AirBnB directory
+3.  - For interactive run ./console
+    - For non-interactive run echo "" | ./console.py
 
-bash
-Copy code
-cd AirBnB_clone
-For interactive mode, run:
-
-bash
-Copy code
-./console
-For non-interactive mode, run:
-
-bash
-Copy code
-echo "" | ./console.py
-Usage
-Console Commands
-Display commands help:
-
-bash
-Copy code
-(hbnb) help
-Create object (prints its id):
-
-bash
-Copy code
-(hbnb) create
-Destroy object:
-
-bash
-Copy code
-(hbnb) destroy
-or
-
-bash
-Copy code
-(hbnb) .destroy()
-Show object:
-
-bash
-Copy code
-(hbnb) show
-or
-
-bash
-Copy code
-(hbnb) .show()
-Show "all" objects or instances of a class:
-
-bash
-Copy code
-(hbnb) all
-or
-
-bash
-Copy code
-(hbnb) all
-Examples
-Run the console:
-
-bash
-Copy code
-./console.py
-Quit the console:
-
-bash
-Copy code
-(hbnb) quit
-Contributor
-[Kalkidan Amare]
+ 		Examples
+	
+	Commands
+Display commands help -> (hbnb) help
+Create object (prints its id) -> (hbnb) create )
+Destroy object -> (hbnb) destroy or (hbnb) .destroy()
+Show object -> (hbnb) show or (hbnb) .show()
+Show "all" objects or instances class -> (hbnb) all or (hbnb) all
+Run console -> ./console.py
+Quit console -> (hbnb)quit
