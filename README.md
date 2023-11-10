@@ -13,8 +13,6 @@ Access the Airbnb directory:
     - For non-interactive run echo "" | ./console.py
 
  		Examples
-	
-	Commands
 Display commands help -> (hbnb) help
 Create object (prints its id) -> (hbnb) create )
 Destroy object -> (hbnb) destroy or (hbnb) .destroy()
