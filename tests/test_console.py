@@ -285,6 +285,8 @@ class TestHBNBCommand(unittest.TestCase):
             self.assertEqual(
                 "** no instance found **\n", f.getvalue())
 
-    @unittest.skipIf(type(models.storage) == DBStorage, "Testing DBStor
+    @unittest.skipIf(type(models.storage) == DBStorage, "Testing DBStorage")
+
+
 if __name__ == "__main__":
     unittest.main()
